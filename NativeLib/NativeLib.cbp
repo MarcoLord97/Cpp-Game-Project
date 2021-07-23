@@ -37,8 +37,10 @@
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="include/Level.h" />
+		<Unit filename="include/Player.h" />
 		<Unit filename="src/Level.cpp" />
 		<Unit filename="src/NativeLib.cpp" />
+		<Unit filename="src/Player.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
