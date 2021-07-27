@@ -3,16 +3,17 @@
 
 #include "Common.h"
 #include "Area2D.hpp"
+#include <Input.hpp>
 
 class Player: Area2D
 {
-    GODOT_CLASS(Level,Node2D)
+    GODOT_CLASS(Player,Area2D)
     public:
-        Level();
-        virtual ~Level();
+        Player();
+        virtual ~Player();
     static void _register_methods();
     void _init();
-    int Speed = 400;
+    int speed = 400;
     protected:
 
     private:
